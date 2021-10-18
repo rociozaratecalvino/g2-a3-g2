@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navegacion{
+
+    background-color:green;
+    color:white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px;
+    border: 15px;
+    align-items: center;
+    font-size: 10px;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding: 0px;
+    background-size:contain;
+    align-self: center;
+    background-color: rgb(223, 223, 223);
+}
+  
+.imagen-perro {  
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 5px;
+        }  
+
+
+.informacion-mapa-actual{
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    position:relative;
+    height: 126px;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.imagen-bateria{
+    width: 20px;
+    height: 20px;
+}
+.datos-basicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 35px;
+    color: black;
+
+}
+h4{
+    font-size: 15px;
+    color: black;
+
+}
+
+.distancia-casa{
+    color: green;
+
+}
+
+
+.datos-ubicacion{
+    padding-left: 45px;
+    color: black;
+
+}
+.refresh{
+    width: 15px;
+    height: 15px;
+}
